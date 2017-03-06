@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,6 +6,7 @@
 		<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 	    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href=" {% static 'css/home.css' %} ">
 		<title>My Portfolio</title>
 	</head>
 	<body>
@@ -19,7 +21,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">thenewBombay</a>
+                        <a class="navbar-brand brand" href="#">thenewBombay</a>
                     </div>
 
                      <!-- Collect the nav links, forms, and other content for toggling -->
