@@ -10,3 +10,7 @@ def post_list(request):
 
 def home(request):
     return render(request, 'myblog/index.html')
+
+
+def about(request):
+    return render(request,'myblog/about.html')
